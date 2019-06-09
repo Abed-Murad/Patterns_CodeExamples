@@ -1,3 +1,5 @@
 package behaviour_parameterization_pattern
 
-data class Book(private val pages: Int)
+data class Book(val pages: Int,
+                val PublicationsName: String,
+                val price: Int)
